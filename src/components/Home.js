@@ -1,10 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
+import ImageSlider from './ImageSlider';
 
 function Home() {
   return (
     <Container>
-      dfg
+      <ImageSlider/>
     </Container>
   )
 }
@@ -29,3 +30,5 @@ const  Container = styled.main`
   }
 
 `
+
+const Imageslidder = styled.div
