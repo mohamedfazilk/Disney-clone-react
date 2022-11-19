@@ -36,6 +36,8 @@ function Header() {
       <span>SERIES</span>
     </a>
    </NavMenu>
+
+   <UserImg src="/images/fas.jpg"/>
     </Nav>
   )
 }
@@ -58,10 +60,14 @@ width:80px;
 
 const NavMenu = styled.div`
 display:flex;
+flex:1;
+margin-left:25px;
 a{
   display:flex;
   align-items:center;
   padding:0 12px;
+  cursor:pointer;
+  align-items:center;
 
   img{
     height:20px
@@ -74,3 +80,13 @@ a{
 }
 
 `
+
+const UserImg = styled.img`
+
+width:48px;
+height:48px;
+border-radius:50%;
+cursor:pointer;
+
+
+` 
